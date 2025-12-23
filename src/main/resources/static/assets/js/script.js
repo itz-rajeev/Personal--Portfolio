@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Jigar Sable";
+            document.title = "Portfolio | Rajeev kumar";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
@@ -248,4 +248,5 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
+
 srtop.reveal('.contact .container .form-group', { delay: 400 });
